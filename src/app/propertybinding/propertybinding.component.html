@@ -3,3 +3,18 @@
 
 <p [class]="p_class">ciao, io sono un paragrafo</p>
 <button [disabled]="button_disabled">bottone</button>
+<br />
+<hr>
+<h3>Passaggio di dati da padre a figlio</h3>
+<br />
+<i>Members of Rush</i>
+<div>
+    <div class="row">
+        <div class="col-2"><strong>Name</strong></div>
+        <div class="col-2"><strong>Surame</strong></div>
+        <div class="col-2"><strong>Instrument</strong></div>
+    </div>
+    <!-- utilizzo la property binding per passare i dati dal componente padre (questo) 
+        al componente figlio (son-item) -->
+    <app-son-item *ngFor="let uno_dei_rush of Rush" [musician]="uno_dei_rush"></app-son-item>
+</div>
