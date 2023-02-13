@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+#main {
+    padding: 30px 30px 30px 30px;
+}
+
+.row {
+    padding-bottom: 20px;
+}

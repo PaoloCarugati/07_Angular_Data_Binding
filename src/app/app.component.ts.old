@@ -1,0 +1,53 @@
+/*
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = '01_Angular_empty';
+  h1: string = "h1h1h1h1h1h";
+
+  h1_style: string = "color: red;";
+
+  p_class: string = "mio_p_invisibile";
+
+  button_disabled: boolean = true;
+
+
+  //versione 1
+  onAnchorClick() {
+    alert("ciao!");
+    //return false;
+  }
+
+
+  //versione 2
+  onAnchorClick(text:HTMLInputElement): boolean {
+    alert(text.value);
+    return false;
+  }
+
+
+  //versione 3
+
+  onAnchorClick(text:HTMLInputElement): boolean {
+    //alert(text.value);
+    this.h1 = text.value;
+    return false;
+  }
+
+
+  text2WayBinding: string = "hello";
+
+  //versione 4
+  onAnchorClick(text:HTMLInputElement): boolean {
+    //alert(text.value);
+    this.text2WayBinding = text.value;
+    return false;
+  }  
+}
+*/
+

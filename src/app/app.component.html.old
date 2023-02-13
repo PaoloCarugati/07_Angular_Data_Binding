@@ -1,0 +1,28 @@
+
+
+<h1 [style]="h1_style"> {{ h1 }} </h1>
+<h2>{{title}}</h2>
+<p [class]="p_class"> nell'h1 c'è scritto {{ h1 }}</p>
+
+<button [disabled]="button_disabled">bottone</button>
+
+<br />
+<br />
+<br />
+<br />
+
+
+<input type="text" maxlength="5" #pippo />
+<!-- versione 1 
+<a href="#" (click)="onAnchorClick()">io sono un link</a>
+-->
+
+<!-- versioni successive -->
+<a href="#" (click)="onAnchorClick(pippo)">io sono un link</a>
+<br />
+<br />
+<br />
+<br />
+
+<input type="text" [(ngModel)] = "text2WayBinding"/>
+<span>{{ text2WayBinding }}</span>

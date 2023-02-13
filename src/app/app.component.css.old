@@ -1,0 +1,7 @@
+p.mio_p {
+    background-color: yellow;
+}
+
+p.mio_p_invisibile {
+    display: none;
+}

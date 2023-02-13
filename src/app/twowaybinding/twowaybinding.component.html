@@ -1,0 +1,9 @@
+<h2>Two Way Binding</h2>
+<br />
+
+<input type="range" min="0" max="100" step="0.5" length="600px" [(ngModel)] = "rangeValue" >
+&nbsp;<span>{{ rangeValue }}</span>
+
+<br />
+<input type="number" #input value="50" />
+<a href="#" (click)="onModificaValore(input)">Modifica</a>

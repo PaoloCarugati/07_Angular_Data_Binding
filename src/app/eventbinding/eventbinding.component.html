@@ -1,0 +1,16 @@
+<h2>Event Binding</h2>
+<br />
+
+<p>
+    <a href="#" (click)="onAnchorClick1()">senza parametri (v.1)</a>
+</p>
+
+<p>
+    <input type="text" maxlength="25" #input value="lorem ipsum bla bla bla" />
+    <br />
+    <a href="#" (click)="onAnchorClick2(input)">con parametri (v.2)</a> -> scrivi qualcosa nell'input, verrà scritto nell'alert
+    <br />
+    <a href="#" (click)="onAnchorClick3(input)">con parametri (v.3)</a> -> scrivi qualcosa nell'input, verrà scritto nel paragrafo sotto
+</p>
+
+<p>{{ testo_paragrafo }}</p>
