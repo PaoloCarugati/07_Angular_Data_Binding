@@ -8,6 +8,8 @@ import { StringinterpolationComponent } from './stringinterpolation/stringinterp
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { SonItemComponent } from './propertybinding/son-item/son-item.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
     StringinterpolationComponent,
     PropertybindingComponent,
     EventbindingComponent,
-    TwowaybindingComponent
+    TwowaybindingComponent,
+    SonItemComponent
   ],
   imports: [
     BrowserModule,
